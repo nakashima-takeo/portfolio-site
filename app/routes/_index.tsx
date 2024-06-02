@@ -20,7 +20,7 @@ const samplePortfolioInfo: Portfolio[] = [
   {
     name: "BestReply",
     description: "gptを用いて、チケットの返信を自動生成するツールです。",
-    githubUrl: "https://github.com",
+    githubUrl: "https://github.com/nakashima-takeo/bestreply-frontend",
   },
 ];
 
