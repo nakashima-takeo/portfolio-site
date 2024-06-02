@@ -6,7 +6,7 @@ import { Portfolio } from "~/types/portfolio";
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "New Remix App" },
+    { title: "自身のポートフォリオまとめサイト" },
     { name: "description", content: "Welcome to Remix!" },
   ];
 };
