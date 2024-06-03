@@ -8,7 +8,7 @@ export default function PortfolioCard(portfolioInfo: Portfolio) {
       <p>{portfolioInfo.description}</p>
       <div className="mt-4">
         <Button text="GitHub" url={portfolioInfo.githubUrl} />
-        {portfolioInfo.ohterlinks?.map((link) => (
+        {portfolioInfo.otherLinks?.map((link) => (
           <Button key={link.title} text={link.title} url={link.url} />
         ))}
       </div>
